@@ -16,7 +16,7 @@ variable "resource_group" {
 }
 
 variable "name" {
-  default = "cluster"
+  default = "talnecluster"
 }
 
 variable "region" {
@@ -24,18 +24,18 @@ variable "region" {
 }
 
 variable "service_instance_name" {
-  default = "my-service-instance"
+  default = "talne-service-instance"
 }
 
 variable "cluster_name" {
-  default = "mytestcluster"
+  default = "talnetestcluster"
 }
 
 variable "worker_pool_name" {
-  default = "myvpc2pool"
+  default = "talnevpc2pool"
 }
 
 variable "kube_version" {
-  type        = string
+  type        = "1.20.12"
   description = "Kubernetes version that you want to set up in your cluster."
 }
