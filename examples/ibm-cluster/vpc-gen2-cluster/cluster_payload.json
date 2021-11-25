@@ -12,45 +12,58 @@
         "folder": ".",
         "type": "terraform_v0.12",
         "variablestore": [
-        {
-          "name": "worker_pool_name",
-          "value": "talne_workerpool",
-          "type": "string"
-        },
-        {
-          "name": "service_instance_name",
-          "value": "talne_myservice",
-          "type": "string"
-        },
-        {
-          "name": "flavor",
-          "value": "cx2.2x4",
-          "type": "string"
-        },
-        {
-          "name": "cluster_name",
-          "value": "talne_cluster",
-          "type": "string"
-        },
-        {
-          "name": "region",
-          "value": "us-south",
-          "type": "string"
-        },
-        {
-          "name": "worker_count",
-          "value": "1",
-          "type": "string"
-        },
-        {
-          "name": "resource_group",
-          "value": "Default",
-          "type": "string"
-        }
+	        {
+	          "name": "flavor",
+	          "value": "cx2.2x4",
+	          "type": "string"
+	        },
+	        {
+	          "name": "zone",
+	          "value": "us-south-1",
+	          "type": "string"
+	        },
+		    {
+	          "name": "worker_count",
+	          "value": "1",
+	          "type": "string"
+	        },
+	        {
+	          "name": "resource_group",
+	          "value": "Default",
+	          "type": "string"
+	        },
+	        {
+	          "name": "name",
+	          "value": "talnecluster",
+	          "type": "string"
+	        },
+	        {
+	          "name": "region",
+	          "value": "us-south",
+	          "type": "string"
+	        },
+	        {
+	          "name": "service_instance_name",
+	          "value": "talne_myservice",
+	          "type": "string"
+	        },
+	        {
+	          "name": "cluster_name",
+	          "value": "talne_cluster",
+	          "type": "string"
+	        },
+		    {
+	          "name": "worker_pool_name",
+	          "value": "talne_workerpool",
+	          "type": "string"
+	        },
+		    {
+		      "name": "kube_version",
+	          "value": "1.20.12",
+	          "type": "string"
+	  	}
         ]
     }
     ],
     "githubtoken": "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"
 }
-
-
