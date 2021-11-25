@@ -36,6 +36,6 @@ variable "worker_pool_name" {
 }
 
 variable "kube_version" {
-  type        = 1.20.12
+  type        = string
   description = "Kubernetes version that you want to set up in your cluster."
 }
