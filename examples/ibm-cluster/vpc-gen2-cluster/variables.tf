@@ -16,7 +16,7 @@ variable "resource_group" {
 }
 
 variable "name" {
-  default = "talnecluster"
+  default = "mycluster"
 }
 
 variable "region" {
@@ -24,15 +24,15 @@ variable "region" {
 }
 
 variable "service_instance_name" {
-  default = "talne-service-instance"
+  default = "my-service-instance"
 }
 
 variable "cluster_name" {
-  default = "talnetestcluster"
+  default = "mytestcluster"
 }
 
 variable "worker_pool_name" {
-  default = "talnevpc2pool"
+  default = "myvpc2pool"
 }
 
 variable "kube_version" {
