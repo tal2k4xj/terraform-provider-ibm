@@ -8,6 +8,10 @@ https://ibm.biz/BdfCLj
 
 https://cloud.ibm.com/docs/schematics?topic=schematics-provisioning-terraform-template
 
+## Build your Terraform template
+
+https://cloud.ibm.com/docs/schematics?topic=schematics-create-tf-config
+
 # IBM VPC Gen2 Cluster example
 
 This example shows how to create a Kubernetes VPC Gen-2 Cluster under a specified resource group id, with default worker node with given zone and subnets. To have a multizone cluster, update the zones with new zone-name and subnet-id. 
