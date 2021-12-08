@@ -1,5 +1,5 @@
 variable "flavor" {
-  default = "bx2.2x8"
+  default = "cx2.2x4"
 }
 
 variable "worker_count" {
@@ -35,6 +35,7 @@ variable "worker_pool_name" {
 }
 
 variable "kube_version" {
+  default = "1.20.12"
   type        = string
   description = "Kubernetes version that you want to set up in your cluster."
 }
