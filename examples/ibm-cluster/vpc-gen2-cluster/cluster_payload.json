@@ -59,7 +59,7 @@
 	        },
 		    {
 		  "name": "kube_version",
-	          "value": "1.20.12",
+	          "value": "1.21.7",
 	          "type": "string"
 	  	}
         ]
