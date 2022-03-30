@@ -1,7 +1,7 @@
 {
     "name": "talne_test1_cluster",
     "type": [
-        "terraform_v0.12"
+        "terraform_v0.15"
     ],
     "description": "",
     "template_repo": {
@@ -10,11 +10,11 @@
     "template_data": [
         {
         "folder": ".",
-        "type": "terraform_v0.12",
+        "type": "terraform_v0.15",
         "variablestore": [
 	        {
 	          "name": "flavor",
-	          "value": "cx2.2x4",
+	          "value": "bx2.4x16",
 	          "type": "string"
 	        },
 	        {
@@ -59,7 +59,7 @@
 	        },
 		    {
 		  "name": "kube_version",
-	          "value": "1.21.7",
+	          "value": "4.8_openshift",
 	          "type": "string"
 	  	}
         ]
