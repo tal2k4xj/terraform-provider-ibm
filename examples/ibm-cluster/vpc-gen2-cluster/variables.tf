@@ -1,5 +1,5 @@
 variable "flavor" {
-  default = "cx2.2x4"
+  default = "bx2.4x16"
 }
 
 variable "worker_count" {
@@ -35,5 +35,5 @@ variable "worker_pool_name" {
 }
 
 variable "kube_version" {
-  default = "1.21.7"
+  default = "4.8_openshift"
 }
